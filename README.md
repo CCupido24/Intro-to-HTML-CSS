@@ -100,13 +100,46 @@ HTML Superscripts, Subscripts and Small Text
   main attraction. 
 - Small, sub, and sup elements can help in typography and convey the full meaning of your content.
 
-Week 1 Unit 3: HTML Capabilities
-Troubleshooting and Debugging HTML Code
+Week 1 Unit 3: HTML Capabilities Troubleshooting and Debugging HTML Code
+HTML Capabilities
 - When evaluating markup, it is critical to visit other websites with similar information and utilize the HTML inspector to identify errors. For example, if the 
   website was created by a team we admire, analyzing their work allows us to better grasp how to structure our own HTML. Additionally, the HTML inspector in the 
   development tools can be utilized to debug errors.
 - One problematic code example is an unordered list with four elements that should be numbered one, two, three, four. However, the results display a blank list rather 
   than five things. To resolve this, we can open the developer tools by right-clicking and looking closer. It turns out that the browser adds an additional set of 
   tags while constructing the DOM tree.
+
+HTML Attributes
+- HTML is a complex language that offers additional capabilities through attributes, which add power to any element. Some attributes are specific to specific elements, like the daytime attribute, which is only 
+  used with the time element. Some attributes work with multiple elements but not all, such as images and videos.
+- Global attributes in HTML, such as the class attribute, are highly useful for assigning a reusable name to any element, which can be styled using CSS for all elements sharing that class. These attributes are 
+  essential for creating visually appealing and functional websites.
+- The ID attribute is a popular attribute in HTML, similar to the class attribute, but unique names can only be used once on an entire HTML page. It is useful for CSS targeting but not for JavaScript or targeted 
+  links. However, IDs are useful for addressing specific elements in JavaScript or linked elements. Class and ID attributes provide a way to name HTML elements and reference them in other parts of the code stack.
+- HTML offers various attributes that enhance user interaction and provide hooks into browser power. For example, the "content editable" attribute allows visitors to edit content on a web page, while the "lang" 
+  attribute specifies the language of the content using a short language code. The "dir" attribute indicates the direction in which the text flows, using "LTR" for left-to-right scripts and "RTL" for right-to-left 
+  scripts. These attributes are considered Global Attributes and can be used on any HTML element.
+- The four most important Global Attributes are "class," "id," "lang," and "dir." A comprehensive list of all Global Attributes can be found on MDM web docs. Feel free to use these attributes on any element of 
+  your web pages.
+
+ARIA Roles
+- ARIA Roles are like extra attributes that we can add to HTML elements to make them more meaningful and help browsers understand what they represent. The goal is to rely on proper HTML elements to convey the 
+  right message about the content's meaning, without needing ARIA Roles. However, reality does not always align with ideals, and sometimes compromises have to be made in the code. It becomes a big problem if these 
+  compromises make a website difficult or impossible for people with disabilities to use it. In fact, it is against the law in many places to have an inaccessible website for people with disabilities.
+- You see,HTML even has a significant impact on human rights. ARIA Roles come into play when we want to provide essential information to assistive technologies like screen readers, braille displays, and magnifiers 
+  to ensure a website is fully accessible. ARIA came about when the web began replacing native applications, and it is particularly valuable for ensuring that everyone can use the full functionality of a complex 
+  interface in an app.
+- Here is an example that demonstrates the need for ARIA Roles. Experiment with CSS Grid to push the boundaries of graphic design on the web. Take the headline "hello world" and use CSS layout to place each letter 
+  in a separate cell on the grid. To achieve this, wrap each letter in an HTML element that targets them individually with CSS.
+- Unfortunately, this approach creates a poor experience for screen reader users. Instead of reading "hello world" as intended, the screen reader will spell out each letter: H-E-L-L-O-W-O-R-L-D. You can observe 
+  this behavior in the Firefox Accessibility Inspector by opening the developer tools and navigating to the Accessibility tab.
+- The accessibility tree, a component of the DOM tree, is essential for assistive devices like screen readers to improve user experience. It treats content as separate text containers, potentially causing poor 
+  reading experiences.
+- To address this, ARIA can be used. By adding an ARIA label to the HTML, specifying the text the screen reader will read, and hiding individual letters within a div element, the accessibility tree is removed 
+  while keeping them in the DOM tree. This results in a clear heading of "hello world."
+- ARIA is a powerful tool that significantly enhances web accessibility, especially useful for teams working with semantic HTML 
+  or complex application interfaces. ARIA Roles provide the necessary tools to make a site accessible to everyone, making it a valuable resource for those working with semantic HTML or complex application 
+  interfaces.
+
   
 
