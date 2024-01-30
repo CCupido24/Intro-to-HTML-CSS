@@ -9,7 +9,7 @@ Week 1 Uint 1: Intoduction to HTML
 
 Week 1 Unit 2: HTML Text Formatting
 HTML Paragraphs 
-	HTML is a language for structuring web pages. It distinguishes between elements by using tags surrounded by less-than and greater-than marks. Tags occur in two varieties: opening tags and closing tags. A paragraph's opening and ending tags are <p> and </p>, respectively.
+	HTML is a language for structuring web pages. It distinguishes between elements by using tags surrounded by less-than and greater-than marks. Tags occur in two varieties: opening tags and closing tags. A paragraph's opening and ending tags are \<p> and \</p>, respectively.
 	This course explores the use of HTML elements, which are packages containing content. Some elements, like paragraphs, require both an opening and a closing tag, while others do not. The purpose of HTML markup is to provide meaning to content and help computers understand it. It serves as a bridge between humans and computers. An example is a short paragraph with emphasized text wrapped in p tags. An emphasized phrase is turned into a separate element using em tags. HTML elements can be nested within one another, enhancing their functionality.
 	An HTML document is a collection of HTML elements nested within each other, creating a tree structure like a family tree. This structure is called a DOM tree, or Document Object Model, and is crucial for working with CSS, JavaScript, and developers. 
 	The DOM tree also creates an accessibility tree, which impacts the user experience on a website, including those with disabilities.The choice of HTML elements significantly impacts the user experience on a website.
@@ -31,7 +31,7 @@ HTML Lists
 	The term or key is enclosed in a tag, while the description or value is enclosed in a tag. Multiple descriptions can be provided for each term using multiple tags. The entire list is wrapped in a tag, representing the definition list. The tags and tags are placed side by side without any additional wrapper, illustrating the structure of a definition list.
   
 HTML Quotes
-	The HTML blockquote tag element defines a section that is quoted from another source.
+	The HTML \<blockquote> element defines a section that is quoted from another source.
 	The HTML <abbr> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
 	Marking abbreviations can give useful information to browsers, translation systems and search-engines.
 	Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element.
