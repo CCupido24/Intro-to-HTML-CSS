@@ -141,5 +141,42 @@ ARIA Roles
   or complex application interfaces. ARIA Roles provide the necessary tools to make a site accessible to everyone, making it a valuable resource for those working with semantic HTML or complex application 
   interfaces.
 
+  Week 1 Unit 4: HTML Navigation and Linking
+  HTML Links
+- Web links have become an integral part of our daily lives, with links appearing in various online forms such as navigation bars, menus, and article titles. The concept of linking dates back to the 1980s when 
+  computer innovators focused on hypertext, hypermedia, and hyperlinks. This obsession persisted for over 20 years, leading to the birth of the web. Creating a link is a simple process that has profoundly impacted 
+  computing, information sharing, and the modern world.
+- To create a link, we use the A element \(anchor) and add an href attribute with a URL enclosed in quotes. This URL represents the link's destination. The term href stands for Hypertext Reference, a nerdy phrase 
+  from the past. Between the opening and closing A tags, we can place text or images to make them clickable.
+- Links can be inline or wrapped around images or complex elements like teaser cards. Absolute URLs, which point to a precise location on the web, are more versatile than simple HTTPS://example.com. These URLs 
+  must include the HTTP or HTTPS part, which defines the rules for communication on the web and is crucial for linking.
+- The "S" in HTTPS stands for Secure, and experts recommend using HTTPS for enhanced security. When typing example.com in a modern browser, it automatically adds the HTTPS:// part. As developers or content 
+  creators, we need to include these links ourselves, as this protocol was one of the most significant inventions when the web was created.
+
+HTML URL Pathways
+- In web development, creating well-structured and elegant URLs for web pages is an art that requires careful consideration of how your URLs impact the user experience and search engine results. Absolute URLs are 
+  only one option when linking to something within the same site and domain as the page containing the link. When working on a local copy of the site on your computer, adding a menu bar, and later on, there will 
+  be copies of the site on different servers with different URLs for testing and review purposes.
+- To form a relative URL, you need to understand how files are organized. For example, if you want to link to a blog post from March 9th, instruct the browser to look inside the folder called "blog" and locate the 
+  folder named "March-9.html." Filenames come with extensions like.html,.jpg,.css,.js, while folder names simply have names like "blog" or "people" without any extension. The slashes in a URL indicate that we 
+  should look deeper into the file structure or go one level down. To create a relative URL, omit the domain name but include the initial slash at the beginning. This tells the browser to start from the root level 
+  of the file structure, which is the outermost top level. Alternatively, we can write the path to be relative to the file where the link is written.
+- For example, if you want to include a link in your CSS file that points to the logo.gif file, you can write the URL: /images/logo.gif or../images/logo.gif. The first version, /images/logo.gif, creates a URL that 
+  is relative to the root level, meaning the browser will start looking for the file from the root of the website. The second version,../images/logo.gif, creates a URL that is relative to the location of the file 
+  where the link is written.
+- Creating well-structured and elegant URLs for web pages is an art that requires careful crafting, just like creating any other content. Using relative URLs can be extremely helpful, especially when working on a 
+  project that moves from server to server.
+
+Navigation
+- To create a main menu bar for a website, wrap each link with the correct URL in an element with the correct URL, enclosed in an "li" element, wrapped in an "ul" element, and enclosed in a "nav" element to 
+  indicate the site's navigation. Apply CSS styling to give the menu a visual appearance, as it should be visible to screen readers and assistive devices. Assign the role "navigation" to the "nav" element and 
+  include an "aria label" for a descriptive label.
+- Another type of menu is a breadcrumb trail, wrapped in an ordered list ("ol"), but without assigning the role "navigation" to this menu. Instead, add an "aria label" of "breadcrumb" to provide context when read 
+  aloud.
+- Shift focus to links found in the footer of a page, which are not part of the site's navigation. Mark each link as a link itself and wrap them in a "footer" element, a straightforward representation of two 
+  phrases linking to additional content.
+- Combining HTML elements to layer semantic meaning into content can lead to the right choices for projects. There is no one-size-fits-all approach, as it depends on the specific circumstances and how certain 
+  elements should be rendered.
+
   
 
