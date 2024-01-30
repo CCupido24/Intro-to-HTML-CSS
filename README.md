@@ -31,7 +31,7 @@ HTML Lists
 	The term or key is enclosed in a tag, while the description or value is enclosed in a tag. Multiple descriptions can be provided for each term using multiple tags. The entire list is wrapped in a tag, representing the definition list. The tags and tags are placed side by side without any additional wrapper, illustrating the structure of a definition list.
   
 HTML Quotes
-	The HTML <blockquote> element defines a section that is quoted from another source.
+	The HTML <blockquote > element defines a section that is quoted from another source.
 	The HTML <abbr> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
 	Marking abbreviations can give useful information to browsers, translation systems and search-engines.
 	Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element.
