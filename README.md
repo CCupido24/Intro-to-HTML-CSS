@@ -55,3 +55,14 @@ HTML Superscripts, Subscripts and Small Text
 	MathML is a powerful markup language for math that can be used to mark complex equations on websites. It is also useful for indicating small text that is not as important but still needs to be included. For example, copyright information can be placed in the footer of a page, and a small element can be used to convey its low prominence.
 	CSS can adjust the size of text to any desired size, large or small. However, small text can be used to convey that something has very little prominence, like the fine print at the bottom of a page regarding ownership of the content. This text can be conveyed to the browser as "Hey, this is the fine print. " It is not the main attraction. 
 	Small, sub, and sup elements can help in typography and convey the full meaning of your content.
+
+Week 1 Unit 3: HTML Capabilities
+Troubleshooting and Debugging HTML Code
+- When evaluating markup, it is critical to visit other websites with similar information and utilize the HTML inspector to identify errors. For example, if the 
+  website was created by a team we admire, analyzing their work allows us to better grasp how to structure our own HTML. Additionally, the HTML inspector in the 
+  development tools can be utilized to debug errors.
+- One problematic code example is an unordered list with four elements that should be numbered one, two, three, four. However, the results display a blank list rather 
+  than five things. To resolve this, we can open the developer tools by right-clicking and looking closer. It turns out that the browser adds an additional set of 
+  tags while constructing the DOM tree.
+  
+
